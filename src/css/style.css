@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#chat-box {
+    flex: 1;
+}
+
+#msg-box {
+    border: 1px solid lightgrey;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+    height: 100%;
+}
+
+#text-box {
+   
+}
+
+.myMessage p{
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.othersMessage p{
+    display: inline-block;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 20px;
+}

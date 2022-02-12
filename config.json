@@ -1,0 +1,14 @@
+{
+    "port": 3001,
+    "server": "http://localhost:3001",
+    "2server": "https://rihane-samy.fr:3001",
+
+    "database": {
+        "host": "localhost",
+        "port": 2000,
+        "dbname": "db_name",
+        "charset": "utf8",
+        "login": "server-login",
+        "mdp": "server-mdp"
+    }
+}

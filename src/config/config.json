@@ -1,0 +1,14 @@
+{
+    "port": 1000,
+    "server": "http://localhost:",
+    "2server": "https://localhost:",
+
+    "database": {
+        "host": "localhost",
+        "port": 2000,
+        "dbname": "db_name",
+        "charset": "utf8",
+        "login": "server-login",
+        "mdp": "server-mdp"
+    }
+}
